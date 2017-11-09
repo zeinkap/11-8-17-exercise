@@ -24,3 +24,9 @@
   text-decoration: none;
   color: white;
 }
+
+.banner {
+  text-align: center;
+  padding: 2rem 0;
+  background: pink;
+}
