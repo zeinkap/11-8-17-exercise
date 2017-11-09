@@ -4,6 +4,23 @@
   padding: 0;
 }
 
-html {
-  background: pink;
+.main-nav {
+  display: flex; /* only direct children become flex */
+  justify-content: space-between; /* used for flexbox only */
+  background: #0f637f;
+  padding: 1rem 0.5rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav-list li {
+  margin: 0 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
 }
